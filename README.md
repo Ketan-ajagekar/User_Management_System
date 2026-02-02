@@ -1,16 +1,32 @@
-# React + Vite
+# User Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **User Management System** built using **React.js**.  
+This project demonstrates basic CRUD operations along with pagination and API data fetching.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Fetch users from public API (JSONPlaceholder)
+- Add new users
+- Delete existing users
+- Pagination support
+- Clean and simple UI
+- Component-based structure using React Hooks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- JSONPlaceholder API
 
-## React Compiler
+## ⚙️ How It Works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Users are fetched from an external API using `useEffect`
+- State is managed using `useState`
+- Pagination divides users into pages
+- New users are added locally
+- Users can be deleted instantly from the UI
 
-## Expanding the ESLint configuration
+  UI/UX of User Management System
+  
+<img width="930" height="419" alt="Screenshot 2026-02-02 122703" src="https://github.com/user-attachments/assets/42a32756-d0b3-49cb-8cff-7bc8aaefa4d0" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
